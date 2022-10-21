@@ -3,9 +3,15 @@ import logIn from '../e2e/pages/login';
 import credentials from '../e2e/pages/credentials';
 import main from '../e2e/pages/main';
 
-describe('Login', () => {
+describe('Ebombo', () => {
 
-  let dinamic_name = 'Mi dinamica po'
+  /* Cada vez que se corra el codigo sin cambiar el nombre de la dinamica
+  la prueba va a dejar de fallar porque la misma ya carga en pantalla 
+  
+  -Después de crear la dinámica esta no aparece automáticamente 
+  en la lista de juegos [esto debe lanzar un error].
+  */
+  let dinamic_name = 'Mi Nueva Dinamica'
 
   before(function(){
     /* Visitar Pagina */
@@ -39,7 +45,7 @@ describe('Login', () => {
 
   })
 
-  it('Click Configurar Dinamica', () => {
+  it('Configurar Dinamica', () => {
     /* Nombre Dinamica */
     main.nameDynamic(dinamic_name)
     /* Frases */
