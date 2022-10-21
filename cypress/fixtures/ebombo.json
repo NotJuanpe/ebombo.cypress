@@ -1,0 +1,15 @@
+{
+    "login_button": "//button[text() = 'Sign in']",
+    "email":"//input[@name='email']",
+    "password":"//input[@name='password']",
+    "login": "//button[@type='submit']",
+    "create": "//span[contains(text(),'Create')]",
+    "dynamics":"//span[contains(text(),'Dynamics')]",
+    "game": "//span[contains(text(),'Ahorcado')]",
+    "dynamic_name" :"//input[@name='name']" ,
+    "add": "//span[contains(text(),'Add')]",
+    "save": "//span[contains(text(),'Save')]",
+    "dynamic_container":"//div[@class='list-container']/*/div/div[@class='main-content']/div[@class='description']/div[@class='name']"
+    
+
+}
